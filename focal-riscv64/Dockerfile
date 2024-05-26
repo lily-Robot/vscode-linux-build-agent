@@ -77,3 +77,5 @@ ENV AS=/usr/bin/riscv64-linux-gnu-as \
   CXX=/usr/bin/riscv64-linux-gnu-g++-8 \
   LD=/usr/bin/riscv64-linux-gnu-ld \
   PKG_CONFIG_PATH=/usr/lib/riscv64-linux-gnu/pkgconfig
+
+RUN riscv64-linux-gnu-gcc -v
